@@ -13,8 +13,124 @@
 		<link
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet" />
+		<!-- Todo: 
+            1. Add media queries
+            2. Add Javascript
+            3. Add search icon  -->
 	</head>
 	<body>
-     
-    </body>
+		<!-- header section  -->
+		<div class="background"></div>
+		<header class="header">
+			<nav class="navbar">
+				<ul class="list-elements">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Services</a></li>
+				</ul>
+
+				<form
+					action=""
+					class="search">
+					<div class="search-text">
+						<input
+							placeholder="Search Here..."
+							class="search-bar"
+							type="text" />
+					</div>
+				</form>
+			</nav>
+		</header>
+
+		<main>
+			<section>
+				<div class="container">
+					<div class="item">
+						<h2 class="logo">
+							<img
+								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAPdJREFUOE+1lMkRwyAMRaU79IQrs11ZSE1wVwZssBDbTEK4sT3El/QR/jBwxiTnDGpt0zk5b90fQsn7FwCYcBGVimfJe4ogoo0/xuFdaIgIEAM0jgrK1mS0FVTCRlC5l+fylfw9sdGKNB8hOlDrcy0UwKJS21qoSFrW9NZyT9muxJfZr3R7JHigrHyatTeDsjLj0Kv+OmOYKHYnnFsNjQnjmu6AePwU6Z2wovh7NdrrqCIAVqvroKxtV0JzA5RQ57q6TrPPGqBlKAEc7C5a3sRQLBAFr31zG+xbX/LNgfX1PHVs0pccBojOFAk9a5Y7U/GrURd9u/cBHT3BFq21qx0AAAAASUVORK5CYII=" />Technologent
+						</h2>
+						<div class="text-item">
+							<h2>Welcome<br /><span>To Our Channel</span></h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+								vitae ut voluptates ipsum placeat earum odio facere? Ea quis
+								saepe, assumenda culpa nihil sequi cumque quasi, corporis,
+								debitis itaque dolore.
+							</p>
+							<div class="social-icon">
+								<a href="#"
+									><img
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAKZJREFUOE/tlFEOhCAMRDv/cKbVk+mebPFM8D8b2BhxV0x1MSZGfoHptK8t5ICDAzTlXFGG8BKRJs8MxiyaUjml950A/Xep/hOdu3RCPmMAWOuWmOichsDxc8ndrCwa+qwlSu8nKECE9Dlku5Z6uis5LcHJ3jsYkwL8ANwtSvawNgHbIhrTf6QPeTuRY2sNF6af16laS92i0xDVGlPNTii9UW2prQHefC9PFuYChL0AAAAASUVORK5CYII="
+								/></a>
+								<a href="#"
+									><img
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAO9JREFUOE/NVEEOhCAMbO/wptWXqS9b901wnw1ViEgRdhMTvaCxHWaGDkw3PHwDJj0DFM4NUR1bu2pKM6ZwbmJrl5olAsj8zv4Ds3wzD2zMKK+xIDUAswasAh7RD305U+8hdQpwB+gY7dBBE32R9gnFwRpi3qSWzxqll/KJXheNV9Ong4rqKP/X4T3ZdS2/FxxIfmbyk41/sGVjMnJFohoHUnI/sdSZagNetyE7oJQ0rX6PYmsSVgIWLarqhbIP+kREKeenzauAhXx4H3JdA9pwKzE+blo7qAgc1u0mAsIq6WpN2jPu0xZLdaR6mlo1X8MvexaPAQO4AAAAAElFTkSuQmCC"
+								/></a>
+								<a href="#"
+									><img
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAALFJREFUOE/VlMESgyAMRLN3+KbWL6t+mfSb8J5O1Ng6zjQJowc5L4/dJQC6YOECJt0UyrU+1zoegVreokXORfds8WcgMAZgBylSmnlf6DQJUJ22sZk7cfwL5TbSbldBSp0PytwT0HsOlQpcUO2Ka31Z8DBUnfKf/pugltsQ1IJtM+rtlIhksD3jFrh9z7UvmgP0/OGXY9beJKYnqvpf3jxzQc7D7pn6E9rKm/6ndjCf4gPUo1YWrJtVxQAAAABJRU5ErkJggg=="
+								/></a>
+
+								<a href="#"
+									><img
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAPVJREFUOE/tlE0KwjAQhedJVyWt1xEL/hzKnaDi1jtZBVHPk+Kq9ElLE1NLRaMuBGeZzHzJvPmBfMHwBaY0oLxcEsnzRMg9+v2T74MWSq1HAuwsqNcbIAzPPmAXOhdg7UBmUGrzLnQiwNZCimKIOD6+BS2DqfVYyESCYIcwPPgAyxjv6lPrSQWIovT+8Wb1s4zGAUpVd3TORCQVMhVg2QCRS0TRysa6ly6gA9qpiPFvpf8k1KRbpe9YCqWmflByanS8k0bMb1/V1AbW3bJw9f1DKzl/V1O7UEzPMctuS6ZMre7FuvrlElo4U9juU98F8nD2PwW9Ary7qRbEPGSWAAAAAElFTkSuQmCC"
+								/></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- login section  -->
+					<section>
+						<div class="login-section">
+							<div class="form-box login">
+								<form action="">
+									<h2>Sign In</h2>
+									<div class="input-box">
+										<span class="icon"
+											><img
+												src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAM9JREFUOE+1lEsShCAMBZM93ElPNnqywTPBPlbCRwuhBmFg5cI0nfAAYcLCCUyYDyVrPwPmB2ptuD6ZknM0APSlRCuDn1CirQuOKHWoFBahqPXeCiZrF0DksS11qG9jawEH4PcuUDLlQcuOcdeasRxqaJkl4ncRikqteUFuTc6xnd88HE486CpU/s1MGJzNzwDRHmPUBI1tF6NWmPkraM06n/VraAIDpFvzF+iv3HaZjkC5Vh6FjsURMxzJ65reI9RBFJkQsfnvaZ/gs2qK6QkcUrIWcxwqagAAAABJRU5ErkJggg=="
+										/></span>
+										<input
+											type="email"
+											required
+											name="" />
+										<label for="">Email</label>
+									</div>
+									<div class="input-box">
+										<span class="icon"
+											><img
+												src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAALNJREFUOE/tlEsOwyAMRMd7uBM5WZOTlTvBfirU0hpSiFwpUqWWHb9ne/wRnLDkBCYOoUzpApFVGxfnpv+mlx0wAggVPgMPoUwpQOQKIIpzS4Wpc4zAM+g9bHIV7zcdPnNm2duhORcvw7uPT1nIRbwvsjRr7OnXQ/nw0FS/nQxN+DqzJmiXtB46zPjISI1MJ/QPfamlinrXRb+haZ1M1jJtJtmu9z9ogAhy04PlcPJbXS7vbzNnoxa1YtkTAAAAAElFTkSuQmCC"
+										/></span>
+										<input
+											type="password"
+											required
+											name="" />
+										<label for="">Password</label>
+									</div>
+									<div class="remember-password">
+										<label for=""><input type="checkbox" />Remember Me</label>
+										<a href="3">Forgot Password</a>
+									</div>
+									<button class="btn btn-primary">Log in</button>
+									<div class="create-account">
+										<p>
+											Create A New Account?
+											<a
+												href="#"
+												class="register"
+												>Sign Up</a
+											>
+										</p>
+									</div>
+								</form>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
